@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vk_pub"
+version = "0.0.1"
+description = "Some works on parsing vk pubs"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "vk_pub"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
